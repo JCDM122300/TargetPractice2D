@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [SerializeField] float moveSpeed;
+    [SerializeField] float waitTime;
+    private Rigidbody rB;
+
     // Start is called before the first frame update
     void Start()
     {
